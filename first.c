@@ -1,6 +1,6 @@
 #include <stdio.h> 
-  
-void printArray(int arr[]) 
+
+void printArray(int arr[], int arr_size)
 { 
     int arr_size = sizeof(arr) / sizeof(arr[0]);  
     for (i = 0; i < arr_size; i++) { 
@@ -10,7 +10,7 @@ void printArray(int arr[])
   
 int main() 
 { 
-    int arr[] = { 1, 2, 3, 4 }; 
+    int arr[4] = { 1, 2, 3, 4 }; 
     printArray(arr); 
     return 0; 
 } 
