@@ -2,6 +2,7 @@
 
 void printArray(int arr[], int arr_size)
 { 
+    int i;
     int arr_size = sizeof(arr) / sizeof(arr[0]);  
     for (i = 0; i < arr_size; i++) { 
         printf("%d ", arr[i]); 
